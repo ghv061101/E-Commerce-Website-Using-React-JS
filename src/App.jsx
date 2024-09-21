@@ -10,11 +10,12 @@ import Cart from './pages/Cart'
 import PlaceOrder from './pages/PlaceOrder'  
 import Orders from './pages/Orders'  
 import Chatbot from './components/Chatbot'  
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
-     
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/collections' element={<Collection />} />  
